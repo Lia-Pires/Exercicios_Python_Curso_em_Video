@@ -1,0 +1,15 @@
+n = int(input('Digite um número: '))
+
+
+print('A tabuada deste número é:')
+#print('{1} x 1 = {2}, \n {1} x 2 = {3} , \n {1} x 3 = {4} , \n {1} x 4 = {5} , \n {1} x 5 = {6} , \n {1} x 6 = {7} , \n {1} x 7 = {8} , \n {1} x 8 = {9} , \n {1} x 9 = {10} , \n {1} x 10 = {11}'.format(n, n1, n2, n3, n4, n5, n6, n7, n8, n9, n10))
+print('{} x {} = {}'. format(n, 1, (n*1)))
+print('{} x {} = {}'. format(n, 2, (n*2)))
+print('{} x {} = {}'. format(n, 3, (n*3)))
+print('{} x {} = {}'. format(n, 4, (n*4)))
+print('{} x {} = {}'. format(n, 5, (n*5)))
+print('{} x {} = {}'. format(n, 6, (n*6)))
+print('{} x {} = {}'. format(n, 7, (n*7)))
+print('{} x {} = {}'. format(n, 8, (n*8)))
+print('{} x {} = {}'. format(n, 9, (n*9)))
+print('{} x {} = {}'. format(n, 10, (n*10)))
